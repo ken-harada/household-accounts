@@ -1,712 +1,133 @@
-2024/04/05 11:58:25 [notice] 1#1: using the "epoll" event method
-2024/04/05 11:58:25 [notice] 1#1: nginx/1.23.0
-2024/04/05 11:58:25 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
-2024/04/05 11:58:25 [notice] 1#1: OS: Linux 5.10.47-linuxkit
-2024/04/05 11:58:25 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
-2024/04/05 11:58:25 [notice] 1#1: start worker processes
-2024/04/05 11:58:25 [notice] 1#1: start worker process 31
-2024/04/05 11:58:25 [notice] 1#1: start worker process 32
-2024/04/05 11:58:25 [notice] 1#1: start worker process 33
-2024/04/05 11:58:25 [notice] 1#1: start worker process 34
-2024/04/05 12:02:55 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
-2024/04/05 12:02:55 [notice] 31#31: gracefully shutting down
-2024/04/05 12:02:55 [notice] 34#34: gracefully shutting down
-2024/04/05 12:02:55 [notice] 34#34: exiting
-2024/04/05 12:02:55 [notice] 32#32: gracefully shutting down
-2024/04/05 12:02:55 [notice] 33#33: gracefully shutting down
-2024/04/05 12:02:55 [notice] 33#33: exiting
-2024/04/05 12:02:55 [notice] 31#31: exiting
-2024/04/05 12:02:55 [notice] 34#34: exit
-2024/04/05 12:02:55 [notice] 32#32: exiting
-2024/04/05 12:02:55 [notice] 33#33: exit
-2024/04/05 12:02:55 [notice] 31#31: exit
-2024/04/05 12:02:55 [notice] 32#32: exit
-2024/04/05 12:02:55 [notice] 1#1: signal 17 (SIGCHLD) received from 34
-2024/04/05 12:02:55 [notice] 1#1: worker process 34 exited with code 0
-2024/04/05 12:02:55 [notice] 1#1: signal 17 (SIGCHLD) received from 32
-2024/04/05 12:02:55 [notice] 1#1: worker process 32 exited with code 0
-2024/04/05 12:02:55 [notice] 1#1: worker process 33 exited with code 0
-2024/04/05 12:02:55 [notice] 1#1: signal 17 (SIGCHLD) received from 33
-2024/04/05 12:02:55 [notice] 1#1: signal 29 (SIGIO) received
-2024/04/05 12:02:55 [notice] 1#1: signal 17 (SIGCHLD) received from 31
-2024/04/05 12:02:55 [notice] 1#1: worker process 31 exited with code 0
-2024/04/05 12:02:55 [notice] 1#1: exit
-2024/04/05 12:05:50 [notice] 1#1: using the "epoll" event method
-2024/04/05 12:05:50 [notice] 1#1: nginx/1.23.0
-2024/04/05 12:05:50 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
-2024/04/05 12:05:50 [notice] 1#1: OS: Linux 5.10.47-linuxkit
-2024/04/05 12:05:50 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
-2024/04/05 12:05:50 [notice] 1#1: start worker processes
-2024/04/05 12:05:50 [notice] 1#1: start worker process 30
-2024/04/05 12:05:50 [notice] 1#1: start worker process 31
-2024/04/05 12:05:50 [notice] 1#1: start worker process 32
-2024/04/05 12:05:50 [notice] 1#1: start worker process 33
-2024/04/05 12:09:24 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
-2024/04/05 12:09:24 [notice] 30#30: gracefully shutting down
-2024/04/05 12:09:24 [notice] 31#31: gracefully shutting down
-2024/04/05 12:09:24 [notice] 33#33: gracefully shutting down
-2024/04/05 12:09:24 [notice] 33#33: exiting
-2024/04/05 12:09:24 [notice] 32#32: gracefully shutting down
-2024/04/05 12:09:24 [notice] 32#32: exiting
-2024/04/05 12:09:24 [notice] 30#30: exiting
-2024/04/05 12:09:24 [notice] 31#31: exiting
-2024/04/05 12:09:24 [notice] 33#33: exit
-2024/04/05 12:09:24 [notice] 32#32: exit
-2024/04/05 12:09:24 [notice] 30#30: exit
-2024/04/05 12:09:24 [notice] 31#31: exit
-2024/04/05 12:09:24 [notice] 1#1: signal 17 (SIGCHLD) received from 33
-2024/04/05 12:09:24 [notice] 1#1: worker process 32 exited with code 0
-2024/04/05 12:09:24 [notice] 1#1: worker process 33 exited with code 0
-2024/04/05 12:09:24 [notice] 1#1: signal 29 (SIGIO) received
-2024/04/05 12:09:24 [notice] 1#1: signal 17 (SIGCHLD) received from 31
-2024/04/05 12:09:24 [notice] 1#1: worker process 30 exited with code 0
-2024/04/05 12:09:24 [notice] 1#1: worker process 31 exited with code 0
-2024/04/05 12:09:24 [notice] 1#1: exit
-2024/04/05 12:09:40 [notice] 1#1: using the "epoll" event method
-2024/04/05 12:09:40 [notice] 1#1: nginx/1.23.0
-2024/04/05 12:09:40 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
-2024/04/05 12:09:40 [notice] 1#1: OS: Linux 5.10.47-linuxkit
-2024/04/05 12:09:40 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
-2024/04/05 12:09:40 [notice] 1#1: start worker processes
-2024/04/05 12:09:40 [notice] 1#1: start worker process 31
-2024/04/05 12:09:40 [notice] 1#1: start worker process 32
-2024/04/05 12:09:40 [notice] 1#1: start worker process 33
-2024/04/05 12:09:40 [notice] 1#1: start worker process 34
-2024/04/05 12:12:21 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
-2024/04/05 12:12:21 [notice] 32#32: gracefully shutting down
-2024/04/05 12:12:21 [notice] 32#32: exiting
-2024/04/05 12:12:21 [notice] 31#31: gracefully shutting down
-2024/04/05 12:12:21 [notice] 33#33: gracefully shutting down
-2024/04/05 12:12:21 [notice] 34#34: gracefully shutting down
-2024/04/05 12:12:21 [notice] 32#32: exit
-2024/04/05 12:12:21 [notice] 31#31: exiting
-2024/04/05 12:12:21 [notice] 33#33: exiting
-2024/04/05 12:12:21 [notice] 34#34: exiting
-2024/04/05 12:12:21 [notice] 31#31: exit
-2024/04/05 12:12:21 [notice] 33#33: exit
-2024/04/05 12:12:21 [notice] 34#34: exit
-2024/04/05 12:12:21 [notice] 1#1: signal 17 (SIGCHLD) received from 32
-2024/04/05 12:12:21 [notice] 1#1: worker process 31 exited with code 0
-2024/04/05 12:12:21 [notice] 1#1: worker process 32 exited with code 0
-2024/04/05 12:12:21 [notice] 1#1: signal 29 (SIGIO) received
-2024/04/05 12:12:21 [notice] 1#1: signal 17 (SIGCHLD) received from 34
-2024/04/05 12:12:21 [notice] 1#1: worker process 33 exited with code 0
-2024/04/05 12:12:21 [notice] 1#1: worker process 34 exited with code 0
-2024/04/05 12:12:21 [notice] 1#1: exit
-2024/04/05 12:12:33 [notice] 1#1: using the "epoll" event method
-2024/04/05 12:12:33 [notice] 1#1: nginx/1.23.0
-2024/04/05 12:12:33 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
-2024/04/05 12:12:33 [notice] 1#1: OS: Linux 5.10.47-linuxkit
-2024/04/05 12:12:33 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
-2024/04/05 12:12:33 [notice] 1#1: start worker processes
-2024/04/05 12:12:33 [notice] 1#1: start worker process 31
-2024/04/05 12:12:33 [notice] 1#1: start worker process 32
-2024/04/05 12:12:33 [notice] 1#1: start worker process 33
-2024/04/05 12:12:33 [notice] 1#1: start worker process 34
-2024/04/05 12:12:49 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
-2024/04/05 12:12:49 [notice] 31#31: gracefully shutting down
-2024/04/05 12:12:49 [notice] 33#33: gracefully shutting down
-2024/04/05 12:12:49 [notice] 32#32: gracefully shutting down
-2024/04/05 12:12:49 [notice] 34#34: gracefully shutting down
-2024/04/05 12:12:49 [notice] 31#31: exiting
-2024/04/05 12:12:49 [notice] 33#33: exiting
-2024/04/05 12:12:49 [notice] 32#32: exiting
-2024/04/05 12:12:49 [notice] 34#34: exiting
-2024/04/05 12:12:49 [notice] 31#31: exit
-2024/04/05 12:12:49 [notice] 33#33: exit
-2024/04/05 12:12:49 [notice] 32#32: exit
-2024/04/05 12:12:49 [notice] 34#34: exit
-2024/04/05 12:12:49 [notice] 1#1: signal 17 (SIGCHLD) received from 33
-2024/04/05 12:12:49 [notice] 1#1: worker process 33 exited with code 0
-2024/04/05 12:12:49 [notice] 1#1: signal 29 (SIGIO) received
-2024/04/05 12:12:49 [notice] 1#1: signal 17 (SIGCHLD) received from 32
-2024/04/05 12:12:49 [notice] 1#1: worker process 31 exited with code 0
-2024/04/05 12:12:49 [notice] 1#1: worker process 32 exited with code 0
-2024/04/05 12:12:49 [notice] 1#1: signal 17 (SIGCHLD) received from 34
-2024/04/05 12:12:49 [notice] 1#1: worker process 34 exited with code 0
-2024/04/05 12:12:49 [notice] 1#1: signal 29 (SIGIO) received
-2024/04/05 12:12:49 [notice] 1#1: exit
-2024/04/05 12:12:59 [notice] 1#1: using the "epoll" event method
-2024/04/05 12:12:59 [notice] 1#1: nginx/1.23.0
-2024/04/05 12:12:59 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
-2024/04/05 12:12:59 [notice] 1#1: OS: Linux 5.10.47-linuxkit
-2024/04/05 12:12:59 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
-2024/04/05 12:12:59 [notice] 1#1: start worker processes
-2024/04/05 12:12:59 [notice] 1#1: start worker process 30
-2024/04/05 12:12:59 [notice] 1#1: start worker process 31
-2024/04/05 12:12:59 [notice] 1#1: start worker process 32
-2024/04/05 12:12:59 [notice] 1#1: start worker process 33
-2024/04/06 07:05:15 [notice] 1#1: using the "epoll" event method
-2024/04/06 07:05:15 [notice] 1#1: nginx/1.23.0
-2024/04/06 07:05:15 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
-2024/04/06 07:05:15 [notice] 1#1: OS: Linux 5.10.47-linuxkit
-2024/04/06 07:05:15 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
-2024/04/06 07:05:15 [notice] 1#1: start worker processes
-2024/04/06 07:05:15 [notice] 1#1: start worker process 31
-2024/04/06 07:05:15 [notice] 1#1: start worker process 32
-2024/04/06 07:05:15 [notice] 1#1: start worker process 33
-2024/04/06 07:05:15 [notice] 1#1: start worker process 34
-2024/04/06 07:15:14 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
-2024/04/06 07:15:14 [notice] 31#31: gracefully shutting down
-2024/04/06 07:15:14 [notice] 31#31: exiting
-2024/04/06 07:15:14 [notice] 32#32: gracefully shutting down
-2024/04/06 07:15:14 [notice] 32#32: exiting
-2024/04/06 07:15:14 [notice] 34#34: gracefully shutting down
-2024/04/06 07:15:14 [notice] 33#33: gracefully shutting down
-2024/04/06 07:15:14 [notice] 31#31: exit
-2024/04/06 07:15:14 [notice] 32#32: exit
-2024/04/06 07:15:14 [notice] 34#34: exiting
-2024/04/06 07:15:14 [notice] 33#33: exiting
-2024/04/06 07:15:14 [notice] 34#34: exit
-2024/04/06 07:15:14 [notice] 33#33: exit
-2024/04/06 07:15:14 [notice] 1#1: signal 17 (SIGCHLD) received from 32
-2024/04/06 07:15:14 [notice] 1#1: worker process 31 exited with code 0
-2024/04/06 07:15:14 [notice] 1#1: worker process 32 exited with code 0
-2024/04/06 07:15:14 [notice] 1#1: signal 29 (SIGIO) received
-2024/04/06 07:15:14 [notice] 1#1: signal 17 (SIGCHLD) received from 31
-2024/04/06 07:15:14 [notice] 1#1: signal 17 (SIGCHLD) received from 34
-2024/04/06 07:15:14 [notice] 1#1: worker process 33 exited with code 0
-2024/04/06 07:15:14 [notice] 1#1: worker process 34 exited with code 0
-2024/04/06 07:15:14 [notice] 1#1: exit
-2024/04/06 07:16:10 [notice] 1#1: using the "epoll" event method
-2024/04/06 07:16:10 [notice] 1#1: nginx/1.23.0
-2024/04/06 07:16:10 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
-2024/04/06 07:16:10 [notice] 1#1: OS: Linux 5.10.47-linuxkit
-2024/04/06 07:16:10 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
-2024/04/06 07:16:10 [notice] 1#1: start worker processes
-2024/04/06 07:16:10 [notice] 1#1: start worker process 31
-2024/04/06 07:16:10 [notice] 1#1: start worker process 32
-2024/04/06 07:16:10 [notice] 1#1: start worker process 33
-2024/04/06 07:16:10 [notice] 1#1: start worker process 34
-2024/04/06 07:38:43 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
-2024/04/06 07:38:43 [notice] 31#31: gracefully shutting down
-2024/04/06 07:38:43 [notice] 32#32: gracefully shutting down
-2024/04/06 07:38:43 [notice] 32#32: exiting
-2024/04/06 07:38:43 [notice] 33#33: gracefully shutting down
-2024/04/06 07:38:43 [notice] 33#33: exiting
-2024/04/06 07:38:43 [notice] 34#34: gracefully shutting down
-2024/04/06 07:38:43 [notice] 31#31: exiting
-2024/04/06 07:38:43 [notice] 32#32: exit
-2024/04/06 07:38:43 [notice] 33#33: exit
-2024/04/06 07:38:43 [notice] 34#34: exiting
-2024/04/06 07:38:43 [notice] 31#31: exit
-2024/04/06 07:38:43 [notice] 34#34: exit
-2024/04/06 07:38:43 [notice] 1#1: signal 17 (SIGCHLD) received from 32
-2024/04/06 07:38:43 [notice] 1#1: worker process 32 exited with code 0
-2024/04/06 07:38:43 [notice] 1#1: signal 29 (SIGIO) received
-2024/04/06 07:38:43 [notice] 1#1: signal 17 (SIGCHLD) received from 31
-2024/04/06 07:38:43 [notice] 1#1: worker process 31 exited with code 0
-2024/04/06 07:38:43 [notice] 1#1: worker process 34 exited with code 0
-2024/04/06 07:38:43 [notice] 1#1: signal 29 (SIGIO) received
-2024/04/06 07:38:43 [notice] 1#1: signal 17 (SIGCHLD) received from 33
-2024/04/06 07:38:43 [notice] 1#1: worker process 33 exited with code 0
-2024/04/06 07:38:43 [notice] 1#1: exit
-2024/04/06 07:49:46 [notice] 1#1: using the "epoll" event method
-2024/04/06 07:49:46 [notice] 1#1: nginx/1.23.0
-2024/04/06 07:49:46 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
-2024/04/06 07:49:46 [notice] 1#1: OS: Linux 5.10.47-linuxkit
-2024/04/06 07:49:46 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
-2024/04/06 07:49:46 [notice] 1#1: start worker processes
-2024/04/06 07:49:46 [notice] 1#1: start worker process 30
-2024/04/06 07:49:46 [notice] 1#1: start worker process 31
-2024/04/06 07:49:46 [notice] 1#1: start worker process 32
-2024/04/06 07:49:46 [notice] 1#1: start worker process 33
-2024/04/06 08:42:14 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
-2024/04/06 08:42:14 [notice] 30#30: gracefully shutting down
-2024/04/06 08:42:14 [notice] 32#32: gracefully shutting down
-2024/04/06 08:42:14 [notice] 31#31: gracefully shutting down
-2024/04/06 08:42:14 [notice] 33#33: gracefully shutting down
-2024/04/06 08:42:14 [notice] 30#30: exiting
-2024/04/06 08:42:14 [notice] 32#32: exiting
-2024/04/06 08:42:14 [notice] 31#31: exiting
-2024/04/06 08:42:14 [notice] 33#33: exiting
-2024/04/06 08:42:14 [notice] 30#30: exit
-2024/04/06 08:42:14 [notice] 32#32: exit
-2024/04/06 08:42:14 [notice] 31#31: exit
-2024/04/06 08:42:14 [notice] 33#33: exit
-2024/04/06 08:42:14 [notice] 1#1: signal 17 (SIGCHLD) received from 31
-2024/04/06 08:42:14 [notice] 1#1: worker process 30 exited with code 0
-2024/04/06 08:42:14 [notice] 1#1: worker process 31 exited with code 0
-2024/04/06 08:42:14 [notice] 1#1: signal 29 (SIGIO) received
-2024/04/06 08:42:14 [notice] 1#1: signal 17 (SIGCHLD) received from 30
-2024/04/06 08:42:14 [notice] 1#1: signal 17 (SIGCHLD) received from 33
-2024/04/06 08:42:14 [notice] 1#1: worker process 32 exited with code 0
-2024/04/06 08:42:14 [notice] 1#1: worker process 33 exited with code 0
-2024/04/06 08:42:14 [notice] 1#1: exit
-2024/04/06 08:47:11 [notice] 1#1: using the "epoll" event method
-2024/04/06 08:47:11 [notice] 1#1: nginx/1.23.0
-2024/04/06 08:47:11 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
-2024/04/06 08:47:11 [notice] 1#1: OS: Linux 5.10.47-linuxkit
-2024/04/06 08:47:11 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
-2024/04/06 08:47:11 [notice] 1#1: start worker processes
-2024/04/06 08:47:11 [notice] 1#1: start worker process 30
-2024/04/06 08:47:11 [notice] 1#1: start worker process 31
-2024/04/06 08:47:11 [notice] 1#1: start worker process 32
-2024/04/06 08:47:11 [notice] 1#1: start worker process 33
-2024/04/06 08:47:31 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
-2024/04/06 08:47:31 [notice] 30#30: gracefully shutting down
-2024/04/06 08:47:31 [notice] 32#32: gracefully shutting down
-2024/04/06 08:47:31 [notice] 32#32: exiting
-2024/04/06 08:47:31 [notice] 31#31: gracefully shutting down
-2024/04/06 08:47:31 [notice] 31#31: exiting
-2024/04/06 08:47:31 [notice] 33#33: gracefully shutting down
-2024/04/06 08:47:31 [notice] 30#30: exiting
-2024/04/06 08:47:31 [notice] 32#32: exit
-2024/04/06 08:47:31 [notice] 31#31: exit
-2024/04/06 08:47:31 [notice] 33#33: exiting
-2024/04/06 08:47:31 [notice] 30#30: exit
-2024/04/06 08:47:31 [notice] 33#33: exit
-2024/04/06 08:47:31 [notice] 1#1: signal 17 (SIGCHLD) received from 31
-2024/04/06 08:47:31 [notice] 1#1: worker process 30 exited with code 0
-2024/04/06 08:47:31 [notice] 1#1: worker process 31 exited with code 0
-2024/04/06 08:47:31 [notice] 1#1: worker process 32 exited with code 0
-2024/04/06 08:47:31 [notice] 1#1: signal 29 (SIGIO) received
-2024/04/06 08:47:31 [notice] 1#1: signal 17 (SIGCHLD) received from 33
-2024/04/06 08:47:31 [notice] 1#1: worker process 33 exited with code 0
-2024/04/06 08:47:31 [notice] 1#1: exit
-2024/04/06 08:57:19 [notice] 1#1: using the "epoll" event method
-2024/04/06 08:57:19 [notice] 1#1: nginx/1.23.0
-2024/04/06 08:57:19 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
-2024/04/06 08:57:19 [notice] 1#1: OS: Linux 5.10.47-linuxkit
-2024/04/06 08:57:19 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
-2024/04/06 08:57:19 [notice] 1#1: start worker processes
-2024/04/06 08:57:19 [notice] 1#1: start worker process 31
-2024/04/06 08:57:19 [notice] 1#1: start worker process 32
-2024/04/06 08:57:19 [notice] 1#1: start worker process 33
-2024/04/06 08:57:19 [notice] 1#1: start worker process 34
-2024/04/06 09:11:36 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
-2024/04/06 09:11:36 [notice] 31#31: gracefully shutting down
-2024/04/06 09:11:36 [notice] 32#32: gracefully shutting down
-2024/04/06 09:11:36 [notice] 34#34: gracefully shutting down
-2024/04/06 09:11:36 [notice] 33#33: gracefully shutting down
-2024/04/06 09:11:36 [notice] 31#31: exiting
-2024/04/06 09:11:36 [notice] 32#32: exiting
-2024/04/06 09:11:36 [notice] 34#34: exiting
-2024/04/06 09:11:36 [notice] 34#34: exit
-2024/04/06 09:11:36 [notice] 33#33: exiting
-2024/04/06 09:11:36 [notice] 31#31: exit
-2024/04/06 09:11:36 [notice] 32#32: exit
-2024/04/06 09:11:36 [notice] 33#33: exit
-2024/04/06 09:11:36 [notice] 1#1: signal 17 (SIGCHLD) received from 31
-2024/04/06 09:11:36 [notice] 1#1: worker process 31 exited with code 0
-2024/04/06 09:11:36 [notice] 1#1: worker process 34 exited with code 0
-2024/04/06 09:11:36 [notice] 1#1: signal 29 (SIGIO) received
-2024/04/06 09:11:36 [notice] 1#1: signal 17 (SIGCHLD) received from 34
-2024/04/06 09:11:36 [notice] 1#1: signal 17 (SIGCHLD) received from 32
-2024/04/06 09:11:36 [notice] 1#1: worker process 32 exited with code 0
-2024/04/06 09:11:36 [notice] 1#1: signal 17 (SIGCHLD) received from 33
-2024/04/06 09:11:36 [notice] 1#1: worker process 33 exited with code 0
-2024/04/06 09:11:36 [notice] 1#1: exit
-2024/04/08 04:25:19 [notice] 1#1: using the "epoll" event method
-2024/04/08 04:25:19 [notice] 1#1: nginx/1.23.0
-2024/04/08 04:25:19 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
-2024/04/08 04:25:19 [notice] 1#1: OS: Linux 5.10.47-linuxkit
-2024/04/08 04:25:19 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
-2024/04/08 04:25:19 [notice] 1#1: start worker processes
-2024/04/08 04:25:19 [notice] 1#1: start worker process 30
-2024/04/08 04:25:19 [notice] 1#1: start worker process 31
-2024/04/08 04:25:19 [notice] 1#1: start worker process 32
-2024/04/08 04:25:19 [notice] 1#1: start worker process 33
-2024/04/08 13:40:50 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
-2024/04/08 13:40:50 [notice] 30#30: gracefully shutting down
-2024/04/08 13:40:50 [notice] 30#30: exiting
-2024/04/08 13:40:50 [notice] 31#31: gracefully shutting down
-2024/04/08 13:40:50 [notice] 31#31: exiting
-2024/04/08 13:40:50 [notice] 32#32: gracefully shutting down
-2024/04/08 13:40:50 [notice] 32#32: exiting
-2024/04/08 13:40:50 [notice] 33#33: gracefully shutting down
-2024/04/08 13:40:50 [notice] 30#30: exit
-2024/04/08 13:40:50 [notice] 31#31: exit
-2024/04/08 13:40:50 [notice] 32#32: exit
-2024/04/08 13:40:50 [notice] 33#33: exiting
-2024/04/08 13:40:50 [notice] 33#33: exit
-2024/04/08 13:40:50 [notice] 1#1: signal 17 (SIGCHLD) received from 30
-2024/04/08 13:40:50 [notice] 1#1: worker process 30 exited with code 0
-2024/04/08 13:40:50 [notice] 1#1: worker process 31 exited with code 0
-2024/04/08 13:40:50 [notice] 1#1: signal 29 (SIGIO) received
-2024/04/08 13:40:50 [notice] 1#1: signal 17 (SIGCHLD) received from 32
-2024/04/08 13:40:50 [notice] 1#1: worker process 32 exited with code 0
-2024/04/08 13:40:50 [notice] 1#1: signal 29 (SIGIO) received
-2024/04/08 13:40:50 [notice] 1#1: signal 17 (SIGCHLD) received from 33
-2024/04/08 13:40:50 [notice] 1#1: worker process 33 exited with code 0
-2024/04/08 13:40:50 [notice] 1#1: exit
-2024/04/08 13:45:04 [notice] 1#1: using the "epoll" event method
-2024/04/08 13:45:04 [notice] 1#1: nginx/1.23.0
-2024/04/08 13:45:04 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
-2024/04/08 13:45:04 [notice] 1#1: OS: Linux 5.10.47-linuxkit
-2024/04/08 13:45:04 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
-2024/04/08 13:45:04 [notice] 1#1: start worker processes
-2024/04/08 13:45:04 [notice] 1#1: start worker process 30
-2024/04/08 13:45:04 [notice] 1#1: start worker process 31
-2024/04/08 13:45:04 [notice] 1#1: start worker process 32
-2024/04/08 13:45:04 [notice] 1#1: start worker process 33
-2024/04/08 13:47:26 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
-2024/04/08 13:47:26 [notice] 30#30: gracefully shutting down
-2024/04/08 13:47:26 [notice] 31#31: gracefully shutting down
-2024/04/08 13:47:26 [notice] 31#31: exiting
-2024/04/08 13:47:26 [notice] 33#33: gracefully shutting down
-2024/04/08 13:47:26 [notice] 33#33: exiting
-2024/04/08 13:47:26 [notice] 32#32: gracefully shutting down
-2024/04/08 13:47:26 [notice] 32#32: exiting
-2024/04/08 13:47:26 [notice] 30#30: exiting
-2024/04/08 13:47:26 [notice] 31#31: exit
-2024/04/08 13:47:26 [notice] 33#33: exit
-2024/04/08 13:47:26 [notice] 32#32: exit
-2024/04/08 13:47:26 [notice] 30#30: exit
-2024/04/08 13:47:26 [notice] 1#1: signal 17 (SIGCHLD) received from 31
-2024/04/08 13:47:26 [notice] 1#1: worker process 31 exited with code 0
-2024/04/08 13:47:26 [notice] 1#1: signal 29 (SIGIO) received
-2024/04/08 13:47:26 [notice] 1#1: signal 17 (SIGCHLD) received from 30
-2024/04/08 13:47:26 [notice] 1#1: worker process 30 exited with code 0
-2024/04/08 13:47:26 [notice] 1#1: worker process 33 exited with code 0
-2024/04/08 13:47:26 [notice] 1#1: signal 29 (SIGIO) received
-2024/04/08 13:47:26 [notice] 1#1: signal 17 (SIGCHLD) received from 32
-2024/04/08 13:47:26 [notice] 1#1: worker process 32 exited with code 0
-2024/04/08 13:47:26 [notice] 1#1: exit
-2024/04/08 14:14:35 [notice] 1#1: using the "epoll" event method
-2024/04/08 14:14:35 [notice] 1#1: nginx/1.23.0
-2024/04/08 14:14:35 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
-2024/04/08 14:14:35 [notice] 1#1: OS: Linux 5.10.47-linuxkit
-2024/04/08 14:14:35 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
-2024/04/08 14:14:35 [notice] 1#1: start worker processes
-2024/04/08 14:14:35 [notice] 1#1: start worker process 30
-2024/04/08 14:14:35 [notice] 1#1: start worker process 31
-2024/04/08 14:14:35 [notice] 1#1: start worker process 32
-2024/04/08 14:14:35 [notice] 1#1: start worker process 33
-2024/04/08 14:14:38 [error] 31#31: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8000/", host: "localhost"
-2024/04/08 14:14:38 [error] 31#31: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8000/", host: "localhost"
-2024/04/08 14:14:39 [error] 31#31: *1 no live upstreams while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://localhost/", host: "localhost"
-2024/04/08 14:15:22 [error] 31#31: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8000/", host: "localhost"
-2024/04/08 14:15:22 [error] 31#31: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8000/", host: "localhost"
-2024/04/08 14:15:22 [error] 31#31: *1 no live upstreams while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://localhost/", host: "localhost"
-2024/04/08 14:15:48 [error] 31#31: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8000/", host: "localhost"
-2024/04/08 14:15:48 [error] 31#31: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8000/", host: "localhost"
-2024/04/08 14:15:48 [error] 31#31: *1 no live upstreams while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://localhost/favicon.ico", host: "localhost", referrer: "http://localhost/"
-2024/04/08 14:15:49 [error] 31#31: *1 no live upstreams while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://localhost/", host: "localhost"
-2024/04/08 14:15:49 [error] 31#31: *1 no live upstreams while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://localhost/favicon.ico", host: "localhost", referrer: "http://localhost/"
-2024/04/08 14:17:04 [error] 33#33: *10 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8000/", host: "localhost"
-2024/04/08 14:17:04 [error] 33#33: *10 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8000/", host: "localhost"
-2024/04/08 14:17:04 [error] 33#33: *10 no live upstreams while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://localhost/favicon.ico", host: "localhost", referrer: "http://localhost/"
-2024/04/08 14:17:09 [error] 33#33: *10 no live upstreams while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://localhost/", host: "localhost"
-2024/04/08 14:17:09 [error] 33#33: *10 no live upstreams while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://localhost/favicon.ico", host: "localhost", referrer: "http://localhost/"
-2024/04/08 14:17:21 [error] 33#33: *10 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8000/", host: "localhost"
-2024/04/08 14:17:21 [error] 33#33: *10 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8000/", host: "localhost"
-2024/04/08 14:17:21 [error] 33#33: *10 no live upstreams while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://localhost/favicon.ico", host: "localhost", referrer: "http://localhost/"
-2024/04/08 14:17:22 [error] 33#33: *10 no live upstreams while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://localhost/", host: "localhost"
-2024/04/08 14:17:22 [error] 33#33: *10 no live upstreams while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://localhost/favicon.ico", host: "localhost", referrer: "http://localhost/"
-2024/04/08 14:17:32 [error] 33#33: *10 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8000/", host: "localhost"
-2024/04/08 14:17:32 [error] 33#33: *10 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8000/", host: "localhost"
-2024/04/08 14:17:32 [error] 33#33: *10 no live upstreams while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://localhost/favicon.ico", host: "localhost", referrer: "http://localhost/"
-2024/04/08 14:17:33 [error] 33#33: *10 no live upstreams while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://localhost/", host: "localhost"
-2024/04/08 14:17:33 [error] 33#33: *10 no live upstreams while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://localhost/favicon.ico", host: "localhost", referrer: "http://localhost/"
-2024/04/08 14:17:33 [error] 33#33: *10 no live upstreams while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://localhost/", host: "localhost"
-2024/04/08 14:17:33 [error] 33#33: *10 no live upstreams while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://localhost/favicon.ico", host: "localhost", referrer: "http://localhost/"
-2024/04/08 14:17:33 [error] 33#33: *10 no live upstreams while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://localhost/", host: "localhost"
-2024/04/08 14:17:33 [error] 33#33: *10 no live upstreams while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://localhost/favicon.ico", host: "localhost", referrer: "http://localhost/"
-2024/04/08 14:17:54 [error] 33#33: *10 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8000/", host: "localhost"
-2024/04/08 14:17:54 [error] 33#33: *10 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8000/", host: "localhost"
-2024/04/08 14:17:54 [error] 33#33: *10 no live upstreams while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://localhost/favicon.ico", host: "localhost", referrer: "http://localhost/"
-2024/04/08 14:17:55 [error] 33#33: *10 no live upstreams while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://localhost/", host: "localhost"
-2024/04/08 14:17:55 [error] 33#33: *10 no live upstreams while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://localhost/favicon.ico", host: "localhost", referrer: "http://localhost/"
-2024/04/08 14:17:56 [error] 33#33: *10 no live upstreams while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://localhost/", host: "localhost"
-2024/04/08 14:17:56 [error] 33#33: *10 no live upstreams while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://localhost/favicon.ico", host: "localhost", referrer: "http://localhost/"
-2024/04/08 14:18:05 [error] 33#33: *10 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8000/", host: "localhost"
-2024/04/08 14:18:05 [error] 33#33: *10 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8000/", host: "localhost"
-2024/04/08 14:18:05 [error] 33#33: *10 no live upstreams while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://localhost/favicon.ico", host: "localhost", referrer: "http://localhost/"
-2024/04/08 14:18:23 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
-2024/04/08 14:18:23 [notice] 30#30: gracefully shutting down
-2024/04/08 14:18:23 [notice] 31#31: gracefully shutting down
-2024/04/08 14:18:23 [notice] 32#32: gracefully shutting down
-2024/04/08 14:18:23 [notice] 33#33: gracefully shutting down
-2024/04/08 14:18:23 [notice] 30#30: exiting
-2024/04/08 14:18:23 [notice] 32#32: exiting
-2024/04/08 14:18:23 [notice] 33#33: exiting
-2024/04/08 14:18:23 [notice] 30#30: exit
-2024/04/08 14:18:23 [notice] 32#32: exit
-2024/04/08 14:18:23 [notice] 33#33: exit
-2024/04/08 14:18:23 [notice] 1#1: signal 17 (SIGCHLD) received from 30
-2024/04/08 14:18:23 [notice] 1#1: worker process 30 exited with code 0
-2024/04/08 14:18:23 [notice] 1#1: worker process 32 exited with code 0
-2024/04/08 14:18:23 [notice] 1#1: signal 29 (SIGIO) received
-2024/04/08 14:18:23 [notice] 1#1: signal 17 (SIGCHLD) received from 33
-2024/04/08 14:18:23 [notice] 1#1: worker process 33 exited with code 0
-2024/04/08 14:18:23 [notice] 1#1: signal 29 (SIGIO) received
-2024/04/08 14:18:44 [notice] 1#1: using the "epoll" event method
-2024/04/08 14:18:44 [notice] 1#1: nginx/1.23.0
-2024/04/08 14:18:44 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
-2024/04/08 14:18:44 [notice] 1#1: OS: Linux 5.10.47-linuxkit
-2024/04/08 14:18:44 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
-2024/04/08 14:18:44 [notice] 1#1: start worker processes
-2024/04/08 14:18:44 [notice] 1#1: start worker process 32
-2024/04/08 14:18:44 [notice] 1#1: start worker process 33
-2024/04/08 14:18:44 [notice] 1#1: start worker process 34
-2024/04/08 14:18:44 [notice] 1#1: start worker process 35
-2024/04/08 14:18:51 [error] 32#32: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.23.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://172.23.0.3:8000/", host: "localhost"
-2024/04/08 14:18:51 [error] 32#32: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.23.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.23.0.3:8000/favicon.ico", host: "localhost", referrer: "http://localhost/"
-2024/04/08 14:19:23 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
-2024/04/08 14:19:23 [notice] 32#32: gracefully shutting down
-2024/04/08 14:19:23 [notice] 33#33: gracefully shutting down
-2024/04/08 14:19:23 [notice] 34#34: gracefully shutting down
-2024/04/08 14:19:23 [notice] 35#35: gracefully shutting down
-2024/04/08 14:19:23 [notice] 35#35: exiting
-2024/04/08 14:19:23 [notice] 32#32: exiting
-2024/04/08 14:19:23 [notice] 34#34: exiting
-2024/04/08 14:19:23 [notice] 35#35: exit
-2024/04/08 14:19:23 [notice] 32#32: exit
-2024/04/08 14:19:23 [notice] 34#34: exit
-2024/04/08 14:19:23 [notice] 1#1: signal 17 (SIGCHLD) received from 35
-2024/04/08 14:19:23 [notice] 1#1: worker process 32 exited with code 0
-2024/04/08 14:19:23 [notice] 1#1: worker process 34 exited with code 0
-2024/04/08 14:19:23 [notice] 1#1: worker process 35 exited with code 0
-2024/04/08 14:19:23 [notice] 1#1: signal 29 (SIGIO) received
-2024/04/08 14:19:23 [notice] 1#1: signal 17 (SIGCHLD) received from 32
-2024/04/08 14:19:34 [notice] 1#1: using the "epoll" event method
-2024/04/08 14:19:34 [notice] 1#1: nginx/1.23.0
-2024/04/08 14:19:34 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
-2024/04/08 14:19:34 [notice] 1#1: OS: Linux 5.10.47-linuxkit
-2024/04/08 14:19:34 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
-2024/04/08 14:19:34 [notice] 1#1: start worker processes
-2024/04/08 14:19:34 [notice] 1#1: start worker process 31
-2024/04/08 14:19:34 [notice] 1#1: start worker process 32
-2024/04/08 14:19:34 [notice] 1#1: start worker process 33
-2024/04/08 14:19:34 [notice] 1#1: start worker process 34
-2024/04/08 14:23:46 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
-2024/04/08 14:23:46 [notice] 31#31: gracefully shutting down
-2024/04/08 14:23:46 [notice] 33#33: gracefully shutting down
-2024/04/08 14:23:46 [notice] 34#34: gracefully shutting down
-2024/04/08 14:23:46 [notice] 32#32: gracefully shutting down
-2024/04/08 14:23:46 [notice] 32#32: exiting
-2024/04/08 14:23:46 [notice] 31#31: exiting
-2024/04/08 14:23:46 [notice] 33#33: exiting
-2024/04/08 14:23:46 [notice] 34#34: exiting
-2024/04/08 14:23:46 [notice] 32#32: exit
-2024/04/08 14:23:46 [notice] 31#31: exit
-2024/04/08 14:23:46 [notice] 33#33: exit
-2024/04/08 14:23:46 [notice] 34#34: exit
-2024/04/08 14:23:46 [notice] 1#1: signal 17 (SIGCHLD) received from 32
-2024/04/08 14:23:46 [notice] 1#1: worker process 32 exited with code 0
-2024/04/08 14:23:46 [notice] 1#1: signal 29 (SIGIO) received
-2024/04/08 14:23:46 [notice] 1#1: signal 17 (SIGCHLD) received from 33
-2024/04/08 14:23:46 [notice] 1#1: worker process 31 exited with code 0
-2024/04/08 14:23:46 [notice] 1#1: worker process 33 exited with code 0
-2024/04/08 14:23:46 [notice] 1#1: signal 17 (SIGCHLD) received from 31
-2024/04/08 14:23:46 [notice] 1#1: worker process 34 exited with code 0
-2024/04/08 14:23:46 [notice] 1#1: exit
-2024/04/08 14:23:53 [notice] 1#1: using the "epoll" event method
-2024/04/08 14:23:53 [notice] 1#1: nginx/1.23.0
-2024/04/08 14:23:53 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
-2024/04/08 14:23:53 [notice] 1#1: OS: Linux 5.10.47-linuxkit
-2024/04/08 14:23:53 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
-2024/04/08 14:23:53 [notice] 1#1: start worker processes
-2024/04/08 14:23:53 [notice] 1#1: start worker process 31
-2024/04/08 14:23:53 [notice] 1#1: start worker process 32
-2024/04/08 14:23:53 [notice] 1#1: start worker process 33
-2024/04/08 14:23:53 [notice] 1#1: start worker process 34
-2024/04/08 14:24:04 [error] 32#32: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.24.0.1, server: localhost, request: "GET /request_parse HTTP/1.1", upstream: "http://172.24.0.3:8000/request_parse", host: "localhost:8080"
-2024/04/08 14:24:04 [error] 32#32: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.24.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.24.0.3:8000/favicon.ico", host: "localhost:8080", referrer: "http://localhost:8080/request_parse"
-2024/04/08 14:24:07 [error] 32#32: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.24.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://172.24.0.3:8000/", host: "localhost:8080"
-2024/04/08 14:24:07 [error] 32#32: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.24.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.24.0.3:8000/favicon.ico", host: "localhost:8080", referrer: "http://localhost:8080/"
-2024/04/08 14:24:32 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
-2024/04/08 14:24:32 [notice] 31#31: gracefully shutting down
-2024/04/08 14:24:32 [notice] 33#33: gracefully shutting down
-2024/04/08 14:24:32 [notice] 34#34: gracefully shutting down
-2024/04/08 14:24:32 [notice] 34#34: exiting
-2024/04/08 14:24:32 [notice] 32#32: gracefully shutting down
-2024/04/08 14:24:32 [notice] 33#33: exiting
-2024/04/08 14:24:32 [notice] 34#34: exit
-2024/04/08 14:24:32 [notice] 32#32: exiting
-2024/04/08 14:24:32 [notice] 32#32: exit
-2024/04/08 14:24:32 [notice] 33#33: exit
-2024/04/08 14:24:32 [notice] 1#1: signal 17 (SIGCHLD) received from 34
-2024/04/08 14:24:32 [notice] 1#1: worker process 34 exited with code 0
-2024/04/08 14:24:32 [notice] 1#1: signal 29 (SIGIO) received
-2024/04/08 14:24:32 [notice] 1#1: signal 17 (SIGCHLD) received from 33
-2024/04/08 14:24:32 [notice] 1#1: worker process 33 exited with code 0
-2024/04/08 14:24:32 [notice] 1#1: signal 29 (SIGIO) received
-2024/04/08 14:24:32 [notice] 1#1: signal 17 (SIGCHLD) received from 32
-2024/04/08 14:24:32 [notice] 1#1: worker process 32 exited with code 0
-2024/04/08 14:24:32 [notice] 1#1: signal 29 (SIGIO) received
-2024/04/08 14:24:51 [notice] 1#1: using the "epoll" event method
-2024/04/08 14:24:51 [notice] 1#1: nginx/1.23.0
-2024/04/08 14:24:51 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
-2024/04/08 14:24:51 [notice] 1#1: OS: Linux 5.10.47-linuxkit
-2024/04/08 14:24:51 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
-2024/04/08 14:24:51 [notice] 1#1: start worker processes
-2024/04/08 14:24:51 [notice] 1#1: start worker process 31
-2024/04/08 14:24:51 [notice] 1#1: start worker process 32
-2024/04/08 14:24:51 [notice] 1#1: start worker process 33
-2024/04/08 14:24:51 [notice] 1#1: start worker process 34
-2024/04/08 14:24:56 [error] 31#31: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.26.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://172.26.0.3:8000/", host: "localhost:9080"
-2024/04/08 14:25:40 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
-2024/04/08 14:25:40 [notice] 31#31: gracefully shutting down
-2024/04/08 14:25:40 [notice] 32#32: gracefully shutting down
-2024/04/08 14:25:40 [notice] 33#33: gracefully shutting down
-2024/04/08 14:25:40 [notice] 33#33: exiting
-2024/04/08 14:25:40 [notice] 34#34: gracefully shutting down
-2024/04/08 14:25:40 [notice] 34#34: exiting
-2024/04/08 14:25:40 [notice] 31#31: exiting
-2024/04/08 14:25:40 [notice] 33#33: exit
-2024/04/08 14:25:40 [notice] 34#34: exit
-2024/04/08 14:25:40 [notice] 31#31: exit
-2024/04/08 14:25:40 [notice] 1#1: signal 17 (SIGCHLD) received from 34
-2024/04/08 14:25:40 [notice] 1#1: worker process 34 exited with code 0
-2024/04/08 14:25:40 [notice] 1#1: signal 29 (SIGIO) received
-2024/04/08 14:25:40 [notice] 1#1: signal 17 (SIGCHLD) received from 33
-2024/04/08 14:25:40 [notice] 1#1: worker process 31 exited with code 0
-2024/04/08 14:25:40 [notice] 1#1: worker process 33 exited with code 0
-2024/04/08 14:25:40 [notice] 1#1: signal 29 (SIGIO) received
-2024/04/08 14:26:09 [notice] 1#1: using the "epoll" event method
-2024/04/08 14:26:09 [notice] 1#1: nginx/1.23.0
-2024/04/08 14:26:09 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
-2024/04/08 14:26:09 [notice] 1#1: OS: Linux 5.10.47-linuxkit
-2024/04/08 14:26:09 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
-2024/04/08 14:26:09 [notice] 1#1: start worker processes
-2024/04/08 14:26:09 [notice] 1#1: start worker process 30
-2024/04/08 14:26:09 [notice] 1#1: start worker process 31
-2024/04/08 14:26:09 [notice] 1#1: start worker process 32
-2024/04/08 14:26:09 [notice] 1#1: start worker process 33
-2024/04/08 14:26:15 [error] 30#30: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.27.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://172.27.0.3:8000/", host: "localhost:8746"
-2024/04/08 14:26:15 [error] 30#30: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.27.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.27.0.3:8000/favicon.ico", host: "localhost:8746", referrer: "http://localhost:8746/"
-2024/04/08 14:26:16 [error] 30#30: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.27.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://172.27.0.3:8000/", host: "localhost:8746"
-2024/04/08 14:26:16 [error] 30#30: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.27.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.27.0.3:8000/favicon.ico", host: "localhost:8746", referrer: "http://localhost:8746/"
-2024/04/08 14:26:47 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
-2024/04/08 14:26:47 [notice] 30#30: gracefully shutting down
-2024/04/08 14:26:47 [notice] 31#31: gracefully shutting down
-2024/04/08 14:26:47 [notice] 33#33: gracefully shutting down
-2024/04/08 14:26:47 [notice] 32#32: gracefully shutting down
-2024/04/08 14:26:47 [notice] 30#30: exiting
-2024/04/08 14:26:47 [notice] 30#30: exit
-2024/04/08 14:26:47 [notice] 33#33: exiting
-2024/04/08 14:26:47 [notice] 32#32: exiting
-2024/04/08 14:26:47 [notice] 33#33: exit
-2024/04/08 14:26:47 [notice] 32#32: exit
-2024/04/08 14:26:47 [notice] 1#1: signal 17 (SIGCHLD) received from 30
-2024/04/08 14:26:47 [notice] 1#1: worker process 30 exited with code 0
-2024/04/08 14:26:47 [notice] 1#1: worker process 32 exited with code 0
-2024/04/08 14:26:47 [notice] 1#1: signal 29 (SIGIO) received
-2024/04/08 14:26:47 [notice] 1#1: signal 17 (SIGCHLD) received from 33
-2024/04/08 14:26:47 [notice] 1#1: worker process 33 exited with code 0
-2024/04/08 14:26:47 [notice] 1#1: signal 29 (SIGIO) received
-2024/04/08 14:27:23 [notice] 1#1: using the "epoll" event method
-2024/04/08 14:27:23 [notice] 1#1: nginx/1.23.0
-2024/04/08 14:27:23 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
-2024/04/08 14:27:23 [notice] 1#1: OS: Linux 5.10.47-linuxkit
-2024/04/08 14:27:23 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
-2024/04/08 14:27:23 [notice] 1#1: start worker processes
-2024/04/08 14:27:23 [notice] 1#1: start worker process 31
-2024/04/08 14:27:23 [notice] 1#1: start worker process 32
-2024/04/08 14:27:23 [notice] 1#1: start worker process 33
-2024/04/08 14:27:23 [notice] 1#1: start worker process 34
-2024/04/08 14:27:30 [error] 31#31: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.28.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://172.28.0.3:8000/", host: "localhost:8080"
-2024/04/08 14:27:31 [error] 31#31: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.28.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://172.28.0.3:8000/", host: "localhost:8080"
-2024/04/08 14:27:31 [error] 31#31: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.28.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.28.0.3:8000/favicon.ico", host: "localhost:8080", referrer: "http://localhost:8080/"
-2024/04/08 14:27:38 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
-2024/04/08 14:27:38 [notice] 32#32: gracefully shutting down
-2024/04/08 14:27:38 [notice] 34#34: gracefully shutting down
-2024/04/08 14:27:38 [notice] 33#33: gracefully shutting down
-2024/04/08 14:27:38 [notice] 33#33: exiting
-2024/04/08 14:27:38 [notice] 31#31: gracefully shutting down
-2024/04/08 14:27:38 [notice] 34#34: exiting
-2024/04/08 14:27:38 [notice] 33#33: exit
-2024/04/08 14:27:38 [notice] 31#31: exiting
-2024/04/08 14:27:38 [notice] 34#34: exit
-2024/04/08 14:27:38 [notice] 31#31: exit
-2024/04/08 14:27:38 [notice] 1#1: signal 17 (SIGCHLD) received from 33
-2024/04/08 14:27:38 [notice] 1#1: worker process 33 exited with code 0
-2024/04/08 14:27:38 [notice] 1#1: signal 29 (SIGIO) received
-2024/04/08 14:27:38 [notice] 1#1: signal 17 (SIGCHLD) received from 34
-2024/04/08 14:27:38 [notice] 1#1: worker process 34 exited with code 0
-2024/04/08 14:27:38 [notice] 1#1: signal 29 (SIGIO) received
-2024/04/08 14:27:38 [notice] 1#1: signal 17 (SIGCHLD) received from 31
-2024/04/08 14:27:38 [notice] 1#1: worker process 31 exited with code 0
-2024/04/08 14:27:38 [notice] 1#1: signal 29 (SIGIO) received
-2024/04/08 14:28:46 [notice] 1#1: using the "epoll" event method
-2024/04/08 14:28:46 [notice] 1#1: nginx/1.23.0
-2024/04/08 14:28:46 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
-2024/04/08 14:28:46 [notice] 1#1: OS: Linux 5.10.47-linuxkit
-2024/04/08 14:28:46 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
-2024/04/08 14:28:46 [notice] 1#1: start worker processes
-2024/04/08 14:28:46 [notice] 1#1: start worker process 31
-2024/04/08 14:28:46 [notice] 1#1: start worker process 32
-2024/04/08 14:28:46 [notice] 1#1: start worker process 33
-2024/04/08 14:28:46 [notice] 1#1: start worker process 34
-2024/04/08 14:29:13 [error] 31#31: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.29.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://172.29.0.3:8000/", host: "localhost"
-2024/04/08 14:29:13 [error] 31#31: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.29.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.29.0.3:8000/favicon.ico", host: "localhost", referrer: "http://localhost/"
-2024/04/08 14:31:25 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
-2024/04/08 14:31:25 [notice] 31#31: gracefully shutting down
-2024/04/08 14:31:25 [notice] 31#31: exiting
-2024/04/08 14:31:25 [notice] 32#32: gracefully shutting down
-2024/04/08 14:31:25 [notice] 32#32: exiting
-2024/04/08 14:31:25 [notice] 33#33: gracefully shutting down
-2024/04/08 14:31:25 [notice] 33#33: exiting
-2024/04/08 14:31:25 [notice] 34#34: gracefully shutting down
-2024/04/08 14:31:25 [notice] 31#31: exit
-2024/04/08 14:31:25 [notice] 32#32: exit
-2024/04/08 14:31:25 [notice] 33#33: exit
-2024/04/08 14:31:25 [notice] 34#34: exiting
-2024/04/08 14:31:25 [notice] 34#34: exit
-2024/04/08 14:31:25 [notice] 1#1: signal 17 (SIGCHLD) received from 32
-2024/04/08 14:31:25 [notice] 1#1: worker process 32 exited with code 0
-2024/04/08 14:31:25 [notice] 1#1: signal 29 (SIGIO) received
-2024/04/08 14:31:25 [notice] 1#1: signal 17 (SIGCHLD) received from 33
-2024/04/08 14:31:25 [notice] 1#1: worker process 33 exited with code 0
-2024/04/08 14:31:25 [notice] 1#1: signal 29 (SIGIO) received
-2024/04/08 14:31:25 [notice] 1#1: signal 17 (SIGCHLD) received from 31
-2024/04/08 14:31:25 [notice] 1#1: worker process 31 exited with code 0
-2024/04/08 14:31:25 [notice] 1#1: worker process 34 exited with code 0
-2024/04/08 14:31:25 [notice] 1#1: signal 17 (SIGCHLD) received from 34
-2024/04/08 14:31:25 [notice] 1#1: exit
-2024/04/08 14:31:26 [notice] 1#1: using the "epoll" event method
-2024/04/08 14:31:26 [notice] 1#1: nginx/1.23.0
-2024/04/08 14:31:26 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
-2024/04/08 14:31:26 [notice] 1#1: OS: Linux 5.10.47-linuxkit
-2024/04/08 14:31:26 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
-2024/04/08 14:31:26 [notice] 1#1: start worker processes
-2024/04/08 14:31:26 [notice] 1#1: start worker process 31
-2024/04/08 14:31:26 [notice] 1#1: start worker process 32
-2024/04/08 14:31:26 [notice] 1#1: start worker process 33
-2024/04/08 14:31:26 [notice] 1#1: start worker process 34
-2024/04/08 14:31:34 [error] 32#32: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.29.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://172.29.0.3:8000/", host: "localhost"
-2024/04/08 14:31:34 [error] 32#32: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.29.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.29.0.3:8000/favicon.ico", host: "localhost", referrer: "http://localhost/"
-2024/04/08 14:31:35 [error] 32#32: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.29.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://172.29.0.3:8000/", host: "localhost"
-2024/04/08 14:31:35 [error] 32#32: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.29.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.29.0.3:8000/favicon.ico", host: "localhost", referrer: "http://localhost/"
-2024/04/08 14:32:22 [error] 32#32: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.29.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://172.29.0.3:8000/", host: "localhost"
-2024/04/08 14:32:22 [error] 32#32: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.29.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.29.0.3:8000/favicon.ico", host: "localhost", referrer: "http://localhost/"
-2024/04/08 14:32:24 [error] 32#32: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.29.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://172.29.0.3:8000/", host: "localhost"
-2024/04/08 14:32:24 [error] 32#32: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.29.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.29.0.3:8000/favicon.ico", host: "localhost", referrer: "http://localhost/"
-2024/04/08 14:32:50 [error] 32#32: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.29.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://172.29.0.3:8000/", host: "localhost"
-2024/04/08 14:32:50 [error] 32#32: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.29.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.29.0.3:8000/favicon.ico", host: "localhost", referrer: "http://localhost/"
-2024/04/09 00:01:32 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
-2024/04/09 00:01:32 [notice] 34#34: gracefully shutting down
-2024/04/09 00:01:32 [notice] 31#31: gracefully shutting down
-2024/04/09 00:01:32 [notice] 31#31: exiting
-2024/04/09 00:01:32 [notice] 32#32: gracefully shutting down
-2024/04/09 00:01:32 [notice] 32#32: exiting
-2024/04/09 00:01:32 [notice] 33#33: gracefully shutting down
-2024/04/09 00:01:32 [notice] 34#34: exiting
-2024/04/09 00:01:32 [notice] 31#31: exit
-2024/04/09 00:01:32 [notice] 32#32: exit
-2024/04/09 00:01:32 [notice] 33#33: exiting
-2024/04/09 00:01:32 [notice] 34#34: exit
-2024/04/09 00:01:32 [notice] 33#33: exit
-2024/04/09 00:01:32 [notice] 1#1: signal 17 (SIGCHLD) received from 32
-2024/04/09 00:01:32 [notice] 1#1: worker process 32 exited with code 0
-2024/04/09 00:01:32 [notice] 1#1: signal 29 (SIGIO) received
-2024/04/09 00:01:32 [notice] 1#1: signal 17 (SIGCHLD) received from 34
-2024/04/09 00:01:32 [notice] 1#1: worker process 31 exited with code 0
-2024/04/09 00:01:32 [notice] 1#1: worker process 34 exited with code 0
-2024/04/09 00:01:32 [notice] 1#1: signal 29 (SIGIO) received
-2024/04/09 00:01:32 [notice] 1#1: signal 17 (SIGCHLD) received from 33
-2024/04/09 00:01:32 [notice] 1#1: worker process 33 exited with code 0
-2024/04/09 00:01:32 [notice] 1#1: exit
-2024/04/09 13:33:33 [notice] 1#1: using the "epoll" event method
-2024/04/09 13:33:33 [notice] 1#1: nginx/1.23.0
-2024/04/09 13:33:33 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
-2024/04/09 13:33:33 [notice] 1#1: OS: Linux 5.10.47-linuxkit
-2024/04/09 13:33:33 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
-2024/04/09 13:33:33 [notice] 1#1: start worker processes
-2024/04/09 13:33:33 [notice] 1#1: start worker process 30
-2024/04/09 13:33:33 [notice] 1#1: start worker process 31
-2024/04/09 13:33:33 [notice] 1#1: start worker process 32
-2024/04/09 13:33:33 [notice] 1#1: start worker process 33
-2024/04/09 13:38:50 [error] 32#32: *6 connect() failed (111: Connection refused) while connecting to upstream, client: 172.29.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://172.29.0.3:8000/", host: "localhost"
+2024/04/06 07:41:57 [notice] 1#1: using the "epoll" event method
+2024/04/06 07:41:57 [notice] 1#1: nginx/1.23.0
+2024/04/06 07:41:57 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2024/04/06 07:41:57 [notice] 1#1: OS: Linux 5.10.47-linuxkit
+2024/04/06 07:41:57 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/04/06 07:41:57 [notice] 1#1: start worker processes
+2024/04/06 07:41:57 [notice] 1#1: start worker process 31
+2024/04/06 07:41:57 [notice] 1#1: start worker process 32
+2024/04/06 07:41:57 [notice] 1#1: start worker process 33
+2024/04/06 07:41:57 [notice] 1#1: start worker process 34
+2024/04/06 07:48:18 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/04/06 07:48:18 [notice] 32#32: gracefully shutting down
+2024/04/06 07:48:18 [notice] 31#31: gracefully shutting down
+2024/04/06 07:48:18 [notice] 31#31: exiting
+2024/04/06 07:48:18 [notice] 33#33: gracefully shutting down
+2024/04/06 07:48:18 [notice] 33#33: exiting
+2024/04/06 07:48:18 [notice] 34#34: gracefully shutting down
+2024/04/06 07:48:18 [notice] 32#32: exiting
+2024/04/06 07:48:18 [notice] 31#31: exit
+2024/04/06 07:48:18 [notice] 33#33: exit
+2024/04/06 07:48:18 [notice] 34#34: exiting
+2024/04/06 07:48:18 [notice] 32#32: exit
+2024/04/06 07:48:18 [notice] 34#34: exit
+2024/04/06 07:48:18 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/04/06 07:48:18 [notice] 1#1: worker process 31 exited with code 0
+2024/04/06 07:48:18 [notice] 1#1: worker process 32 exited with code 0
+2024/04/06 07:48:18 [notice] 1#1: worker process 34 exited with code 0
+2024/04/06 07:48:18 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/04/06 07:48:18 [notice] 1#1: worker process 33 exited with code 0
+2024/04/06 07:48:18 [notice] 1#1: exit
+2024/04/06 07:48:39 [notice] 1#1: using the "epoll" event method
+2024/04/06 07:48:39 [notice] 1#1: nginx/1.23.0
+2024/04/06 07:48:39 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2024/04/06 07:48:39 [notice] 1#1: OS: Linux 5.10.47-linuxkit
+2024/04/06 07:48:39 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/04/06 07:48:39 [notice] 1#1: start worker processes
+2024/04/06 07:48:39 [notice] 1#1: start worker process 31
+2024/04/06 07:48:39 [notice] 1#1: start worker process 32
+2024/04/06 07:48:39 [notice] 1#1: start worker process 33
+2024/04/06 07:48:39 [notice] 1#1: start worker process 34
+2024/04/06 07:49:06 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/04/06 07:49:06 [notice] 31#31: gracefully shutting down
+2024/04/06 07:49:06 [notice] 32#32: gracefully shutting down
+2024/04/06 07:49:06 [notice] 33#33: gracefully shutting down
+2024/04/06 07:49:06 [notice] 33#33: exiting
+2024/04/06 07:49:06 [notice] 34#34: gracefully shutting down
+2024/04/06 07:49:06 [notice] 31#31: exiting
+2024/04/06 07:49:06 [notice] 32#32: exiting
+2024/04/06 07:49:06 [notice] 33#33: exit
+2024/04/06 07:49:06 [notice] 34#34: exiting
+2024/04/06 07:49:06 [notice] 31#31: exit
+2024/04/06 07:49:06 [notice] 32#32: exit
+2024/04/06 07:49:06 [notice] 34#34: exit
+2024/04/06 07:49:06 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/04/06 07:49:06 [notice] 1#1: worker process 31 exited with code 0
+2024/04/06 07:49:06 [notice] 1#1: worker process 32 exited with code 0
+2024/04/06 07:49:06 [notice] 1#1: worker process 34 exited with code 0
+2024/04/06 07:49:06 [notice] 1#1: worker process 33 exited with code 0
+2024/04/06 07:49:06 [notice] 1#1: exit
+2024/04/06 08:49:11 [notice] 1#1: using the "epoll" event method
+2024/04/06 08:49:11 [notice] 1#1: nginx/1.23.0
+2024/04/06 08:49:11 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2024/04/06 08:49:11 [notice] 1#1: OS: Linux 5.10.47-linuxkit
+2024/04/06 08:49:11 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/04/06 08:49:11 [notice] 1#1: start worker processes
+2024/04/06 08:49:11 [notice] 1#1: start worker process 31
+2024/04/06 08:49:11 [notice] 1#1: start worker process 32
+2024/04/06 08:49:11 [notice] 1#1: start worker process 33
+2024/04/06 08:49:11 [notice] 1#1: start worker process 34
+2024/04/06 08:56:03 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/04/06 08:56:03 [notice] 31#31: gracefully shutting down
+2024/04/06 08:56:03 [notice] 32#32: gracefully shutting down
+2024/04/06 08:56:03 [notice] 34#34: gracefully shutting down
+2024/04/06 08:56:03 [notice] 33#33: gracefully shutting down
+2024/04/06 08:56:03 [notice] 33#33: exiting
+2024/04/06 08:56:03 [notice] 31#31: exiting
+2024/04/06 08:56:03 [notice] 32#32: exiting
+2024/04/06 08:56:03 [notice] 34#34: exiting
+2024/04/06 08:56:03 [notice] 33#33: exit
+2024/04/06 08:56:03 [notice] 31#31: exit
+2024/04/06 08:56:03 [notice] 32#32: exit
+2024/04/06 08:56:03 [notice] 34#34: exit
+2024/04/06 08:56:03 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/04/06 08:56:03 [notice] 1#1: worker process 31 exited with code 0
+2024/04/06 08:56:03 [notice] 1#1: worker process 32 exited with code 0
+2024/04/06 08:56:03 [notice] 1#1: signal 29 (SIGIO) received
+2024/04/06 08:56:03 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2024/04/06 08:56:03 [notice] 1#1: worker process 33 exited with code 0
+2024/04/06 08:56:03 [notice] 1#1: worker process 34 exited with code 0
+2024/04/06 08:56:03 [notice] 1#1: exit
+2024/04/09 14:06:12 [notice] 1#1: using the "epoll" event method
+2024/04/09 14:06:12 [notice] 1#1: nginx/1.23.0
+2024/04/09 14:06:12 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2024/04/09 14:06:12 [notice] 1#1: OS: Linux 5.10.47-linuxkit
+2024/04/09 14:06:12 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/04/09 14:06:12 [notice] 1#1: start worker processes
+2024/04/09 14:06:12 [notice] 1#1: start worker process 32
+2024/04/09 14:06:12 [notice] 1#1: start worker process 33
+2024/04/09 14:06:12 [notice] 1#1: start worker process 34
+2024/04/09 14:06:12 [notice] 1#1: start worker process 35
+2024/04/09 14:06:21 [error] 32#32: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.21.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://172.21.0.3:8000/", host: "localhost"
+2024/04/09 14:06:21 [error] 32#32: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.21.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://172.21.0.3:8000/", host: "localhost"
+2024/04/09 14:07:36 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/04/09 14:07:36 [notice] 32#32: gracefully shutting down
+2024/04/09 14:07:36 [notice] 33#33: gracefully shutting down
+2024/04/09 14:07:36 [notice] 33#33: exiting
+2024/04/09 14:07:36 [notice] 34#34: gracefully shutting down
+2024/04/09 14:07:36 [notice] 34#34: exiting
+2024/04/09 14:07:36 [notice] 35#35: gracefully shutting down
+2024/04/09 14:07:36 [notice] 35#35: exiting
+2024/04/09 14:07:36 [notice] 32#32: exiting
+2024/04/09 14:07:36 [notice] 33#33: exit
+2024/04/09 14:07:36 [notice] 34#34: exit
+2024/04/09 14:07:36 [notice] 35#35: exit
+2024/04/09 14:07:36 [notice] 32#32: exit
+2024/04/09 14:07:36 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2024/04/09 14:07:36 [notice] 1#1: worker process 33 exited with code 0
+2024/04/09 14:07:36 [notice] 1#1: worker process 34 exited with code 0
+2024/04/09 14:07:36 [notice] 1#1: worker process 35 exited with code 0
+2024/04/09 14:07:36 [notice] 1#1: signal 29 (SIGIO) received
+2024/04/09 14:07:36 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/04/09 14:07:36 [notice] 1#1: worker process 32 exited with code 0
+2024/04/09 14:07:36 [notice] 1#1: exit
+2024/04/09 14:07:44 [notice] 1#1: using the "epoll" event method
+2024/04/09 14:07:44 [notice] 1#1: nginx/1.23.0
+2024/04/09 14:07:44 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2024/04/09 14:07:44 [notice] 1#1: OS: Linux 5.10.47-linuxkit
+2024/04/09 14:07:44 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/04/09 14:07:44 [notice] 1#1: start worker processes
+2024/04/09 14:07:44 [notice] 1#1: start worker process 31
+2024/04/09 14:07:44 [notice] 1#1: start worker process 32
+2024/04/09 14:07:44 [notice] 1#1: start worker process 33
+2024/04/09 14:07:44 [notice] 1#1: start worker process 34
