@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<head>
+  <title>家計簿 | DBから取得したデータを表示</title>
+</head>
+<body>
+  <div>DBデータ</div>
+  <form action="/db_sample_index" method="get">
+    <div>
+       <input type="text" name="sample_search">
+    </div>
+    <input type="submit" value="検索" />
+  </form>
+  {{ range . }}
+  <div>ID : {{ .Id }}</div>
+  <div>Name : {{ .Name }}</div>
+  <div>
+  {{ end }}
+  <a href="/db_sample_input">入力画面</a>
+</body>

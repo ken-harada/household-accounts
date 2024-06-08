@@ -167,3 +167,225 @@
 2024/04/24 11:02:37 [notice] 1#1: start worker process 31
 2024/04/24 11:02:37 [notice] 1#1: start worker process 32
 2024/04/24 11:02:37 [notice] 1#1: start worker process 33
+2024/04/24 11:22:20 [notice] 1#1: using the "epoll" event method
+2024/04/24 11:22:20 [notice] 1#1: nginx/1.23.0
+2024/04/24 11:22:20 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2024/04/24 11:22:20 [notice] 1#1: OS: Linux 5.10.47-linuxkit
+2024/04/24 11:22:20 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/04/24 11:22:20 [notice] 1#1: start worker processes
+2024/04/24 11:22:20 [notice] 1#1: start worker process 32
+2024/04/24 11:22:20 [notice] 1#1: start worker process 33
+2024/04/24 11:22:20 [notice] 1#1: start worker process 34
+2024/04/24 11:22:20 [notice] 1#1: start worker process 35
+2024/04/24 23:56:05 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/04/24 23:56:05 [notice] 32#32: gracefully shutting down
+2024/04/24 23:56:05 [notice] 32#32: exiting
+2024/04/24 23:56:05 [notice] 33#33: gracefully shutting down
+2024/04/24 23:56:05 [notice] 33#33: exiting
+2024/04/24 23:56:05 [notice] 35#35: gracefully shutting down
+2024/04/24 23:56:05 [notice] 35#35: exiting
+2024/04/24 23:56:05 [notice] 34#34: gracefully shutting down
+2024/04/24 23:56:05 [notice] 32#32: exit
+2024/04/24 23:56:05 [notice] 33#33: exit
+2024/04/24 23:56:05 [notice] 35#35: exit
+2024/04/24 23:56:05 [notice] 34#34: exiting
+2024/04/24 23:56:05 [notice] 34#34: exit
+2024/04/24 23:56:05 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/04/24 23:56:05 [notice] 1#1: worker process 32 exited with code 0
+2024/04/24 23:56:05 [notice] 1#1: signal 29 (SIGIO) received
+2024/04/24 23:56:05 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2024/04/24 23:56:05 [notice] 1#1: worker process 33 exited with code 0
+2024/04/24 23:56:05 [notice] 1#1: worker process 34 exited with code 0
+2024/04/24 23:56:05 [notice] 1#1: worker process 35 exited with code 0
+2024/04/24 23:56:05 [notice] 1#1: exit
+2024/05/10 10:29:57 [notice] 1#1: using the "epoll" event method
+2024/05/10 10:29:57 [notice] 1#1: nginx/1.23.0
+2024/05/10 10:29:57 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2024/05/10 10:29:57 [notice] 1#1: OS: Linux 5.10.47-linuxkit
+2024/05/10 10:29:57 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/05/10 10:29:57 [notice] 1#1: start worker processes
+2024/05/10 10:29:57 [notice] 1#1: start worker process 32
+2024/05/10 10:29:57 [notice] 1#1: start worker process 33
+2024/05/10 10:29:57 [notice] 1#1: start worker process 34
+2024/05/10 10:29:57 [notice] 1#1: start worker process 35
+2024/06/02 23:55:54 [notice] 1#1: using the "epoll" event method
+2024/06/02 23:55:54 [notice] 1#1: nginx/1.23.0
+2024/06/02 23:55:54 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2024/06/02 23:55:54 [notice] 1#1: OS: Linux 5.10.47-linuxkit
+2024/06/02 23:55:54 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/06/02 23:55:54 [notice] 1#1: start worker processes
+2024/06/02 23:55:54 [notice] 1#1: start worker process 32
+2024/06/02 23:55:54 [notice] 1#1: start worker process 33
+2024/06/02 23:55:54 [notice] 1#1: start worker process 34
+2024/06/02 23:55:54 [notice] 1#1: start worker process 35
+2024/06/03 13:56:50 [error] 34#34: *5 upstream prematurely closed connection while reading response header from upstream, client: 172.22.0.1, server: localhost, request: "GET /db_sample HTTP/1.1", upstream: "http://172.22.0.3:8000/db_sample", host: "localhost"
+2024/06/03 13:57:20 [error] 34#34: *5 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /db_sample HTTP/1.1", upstream: "http://172.22.0.3:8000/db_sample", host: "localhost"
+2024/06/03 13:57:45 [error] 34#34: *5 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /db_sample HTTP/1.1", upstream: "http://172.22.0.3:8000/db_sample", host: "localhost"
+2024/06/03 14:04:20 [error] 32#32: *14 upstream prematurely closed connection while reading response header from upstream, client: 172.22.0.1, server: localhost, request: "GET /db_sample HTTP/1.1", upstream: "http://172.22.0.3:8000/db_sample", host: "localhost"
+2024/06/03 14:11:15 [error] 32#32: *17 upstream prematurely closed connection while reading response header from upstream, client: 172.22.0.1, server: localhost, request: "GET /db_sample HTTP/1.1", upstream: "http://172.22.0.3:8000/db_sample", host: "localhost"
+2024/06/03 14:11:16 [error] 32#32: *17 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /db_sample HTTP/1.1", upstream: "http://172.22.0.3:8000/db_sample", host: "localhost"
+2024/06/03 14:11:17 [error] 32#32: *17 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /db_sample HTTP/1.1", upstream: "http://172.22.0.3:8000/db_sample", host: "localhost"
+2024/06/03 14:11:17 [error] 32#32: *17 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /db_sample HTTP/1.1", upstream: "http://172.22.0.3:8000/db_sample", host: "localhost"
+2024/06/03 14:11:17 [error] 32#32: *17 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /db_sample HTTP/1.1", upstream: "http://172.22.0.3:8000/db_sample", host: "localhost"
+2024/06/03 14:11:17 [error] 32#32: *17 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /db_sample HTTP/1.1", upstream: "http://172.22.0.3:8000/db_sample", host: "localhost"
+2024/06/03 14:11:17 [error] 32#32: *17 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /db_sample HTTP/1.1", upstream: "http://172.22.0.3:8000/db_sample", host: "localhost"
+2024/06/03 14:11:17 [error] 32#32: *17 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /db_sample HTTP/1.1", upstream: "http://172.22.0.3:8000/db_sample", host: "localhost"
+2024/06/03 14:11:22 [error] 32#32: *17 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /db_sample HTTP/1.1", upstream: "http://172.22.0.3:8000/db_sample", host: "localhost"
+2024/06/03 14:12:20 [error] 32#32: *17 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /db_sample HTTP/1.1", upstream: "http://172.22.0.3:8000/db_sample", host: "localhost"
+2024/06/03 14:12:20 [error] 32#32: *17 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.22.0.3:8000/favicon.ico", host: "localhost", referrer: "http://localhost/db_sample"
+2024/06/03 14:13:00 [error] 32#32: *17 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /db_sample HTTP/1.1", upstream: "http://172.22.0.3:8000/db_sample", host: "localhost"
+2024/06/03 14:13:00 [error] 32#32: *17 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.22.0.3:8000/favicon.ico", host: "localhost", referrer: "http://localhost/db_sample"
+2024/06/03 14:17:13 [error] 33#33: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /db_sample HTTP/1.1", upstream: "http://172.22.0.3:8000/db_sample", host: "localhost"
+2024/06/03 14:17:13 [error] 33#33: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.22.0.3:8000/favicon.ico", host: "localhost", referrer: "http://localhost/db_sample"
+2024/06/03 14:20:33 [error] 32#32: *39 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /db_sample HTTP/1.1", upstream: "http://172.22.0.3:8000/db_sample", host: "localhost"
+2024/06/03 14:21:48 [error] 32#32: *42 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /db_sample HTTP/1.1", upstream: "http://172.22.0.3:8000/db_sample", host: "localhost"
+2024/06/03 14:22:47 [error] 32#32: *42 upstream prematurely closed connection while reading response header from upstream, client: 172.22.0.1, server: localhost, request: "GET /db_sample HTTP/1.1", upstream: "http://172.22.0.3:8000/db_sample", host: "localhost"
+2024/06/03 14:25:13 [error] 32#32: *46 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /db_sample HTTP/1.1", upstream: "http://172.22.0.3:8000/db_sample", host: "localhost"
+2024/06/03 14:25:26 [error] 32#32: *46 upstream prematurely closed connection while reading response header from upstream, client: 172.22.0.1, server: localhost, request: "GET /db_sample HTTP/1.1", upstream: "http://172.22.0.3:8000/db_sample", host: "localhost"
+2024/06/03 14:25:26 [error] 32#32: *46 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.22.0.3:8000/favicon.ico", host: "localhost", referrer: "http://localhost/db_sample"
+2024/06/03 14:26:11 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/06/03 14:26:11 [notice] 35#35: gracefully shutting down
+2024/06/03 14:26:11 [notice] 35#35: exiting
+2024/06/03 14:26:11 [notice] 34#34: gracefully shutting down
+2024/06/03 14:26:11 [notice] 34#34: exiting
+2024/06/03 14:26:11 [notice] 33#33: gracefully shutting down
+2024/06/03 14:26:11 [notice] 32#32: gracefully shutting down
+2024/06/03 14:26:11 [notice] 35#35: exit
+2024/06/03 14:26:11 [notice] 34#34: exit
+2024/06/03 14:26:11 [notice] 32#32: exiting
+2024/06/03 14:26:11 [notice] 32#32: exit
+2024/06/03 14:26:11 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2024/06/03 14:26:11 [notice] 1#1: worker process 34 exited with code 0
+2024/06/03 14:26:11 [notice] 1#1: worker process 35 exited with code 0
+2024/06/03 14:26:11 [notice] 1#1: signal 29 (SIGIO) received
+2024/06/03 14:26:11 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/06/03 14:26:11 [notice] 1#1: worker process 32 exited with code 0
+2024/06/03 14:26:11 [notice] 1#1: signal 29 (SIGIO) received
+2024/06/03 14:26:13 [notice] 33#33: exiting
+2024/06/03 14:26:13 [notice] 33#33: exit
+2024/06/03 14:26:13 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2024/06/03 14:26:13 [notice] 1#1: worker process 33 exited with code 0
+2024/06/03 14:26:13 [notice] 1#1: exit
+2024/06/03 14:26:21 [notice] 1#1: using the "epoll" event method
+2024/06/03 14:26:21 [notice] 1#1: nginx/1.23.0
+2024/06/03 14:26:21 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2024/06/03 14:26:21 [notice] 1#1: OS: Linux 5.10.47-linuxkit
+2024/06/03 14:26:21 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/06/03 14:26:21 [notice] 1#1: start worker processes
+2024/06/03 14:26:21 [notice] 1#1: start worker process 30
+2024/06/03 14:26:21 [notice] 1#1: start worker process 31
+2024/06/03 14:26:21 [notice] 1#1: start worker process 32
+2024/06/03 14:26:21 [notice] 1#1: start worker process 33
+2024/06/03 14:26:26 [error] 30#30: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /db_sample HTTP/1.1", upstream: "http://172.22.0.3:8000/db_sample", host: "localhost"
+2024/06/03 14:26:26 [error] 30#30: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.22.0.3:8000/favicon.ico", host: "localhost", referrer: "http://localhost/db_sample"
+2024/06/03 14:27:18 [error] 30#30: *1 upstream prematurely closed connection while reading response header from upstream, client: 172.22.0.1, server: localhost, request: "GET /db_sample HTTP/1.1", upstream: "http://172.22.0.3:8000/db_sample", host: "localhost"
+2024/06/03 14:28:23 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/06/03 14:28:23 [notice] 30#30: gracefully shutting down
+2024/06/03 14:28:23 [notice] 30#30: exiting
+2024/06/03 14:28:23 [notice] 31#31: gracefully shutting down
+2024/06/03 14:28:23 [notice] 31#31: exiting
+2024/06/03 14:28:23 [notice] 33#33: gracefully shutting down
+2024/06/03 14:28:23 [notice] 33#33: exiting
+2024/06/03 14:28:23 [notice] 32#32: gracefully shutting down
+2024/06/03 14:28:23 [notice] 32#32: exiting
+2024/06/03 14:28:23 [notice] 30#30: exit
+2024/06/03 14:28:23 [notice] 31#31: exit
+2024/06/03 14:28:23 [notice] 33#33: exit
+2024/06/03 14:28:23 [notice] 32#32: exit
+2024/06/03 14:28:23 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/06/03 14:28:23 [notice] 1#1: worker process 31 exited with code 0
+2024/06/03 14:28:23 [notice] 1#1: worker process 30 exited with code 0
+2024/06/03 14:28:23 [notice] 1#1: worker process 33 exited with code 0
+2024/06/03 14:28:23 [notice] 1#1: signal 29 (SIGIO) received
+2024/06/03 14:28:23 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2024/06/03 14:28:23 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/06/03 14:28:23 [notice] 1#1: worker process 32 exited with code 0
+2024/06/03 14:28:23 [notice] 1#1: exit
+2024/06/03 14:28:27 [notice] 1#1: using the "epoll" event method
+2024/06/03 14:28:27 [notice] 1#1: nginx/1.23.0
+2024/06/03 14:28:27 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2024/06/03 14:28:27 [notice] 1#1: OS: Linux 5.10.47-linuxkit
+2024/06/03 14:28:27 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/06/03 14:28:27 [notice] 1#1: start worker processes
+2024/06/03 14:28:27 [notice] 1#1: start worker process 31
+2024/06/03 14:28:27 [notice] 1#1: start worker process 32
+2024/06/03 14:28:27 [notice] 1#1: start worker process 33
+2024/06/03 14:28:27 [notice] 1#1: start worker process 34
+2024/06/03 14:29:23 [error] 31#31: *2 upstream prematurely closed connection while reading response header from upstream, client: 172.22.0.1, server: localhost, request: "GET /db_sample HTTP/1.1", upstream: "http://172.22.0.3:8000/db_sample", host: "localhost"
+2024/06/03 14:29:23 [error] 31#31: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.22.0.3:8000/favicon.ico", host: "localhost", referrer: "http://localhost/db_sample"
+2024/06/04 00:20:25 [error] 32#32: *14 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /db_sample HTTP/1.1", upstream: "http://172.22.0.3:8000/db_sample", host: "localhost"
+2024/06/04 00:41:51 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/06/04 00:41:51 [notice] 31#31: gracefully shutting down
+2024/06/04 00:41:51 [notice] 33#33: gracefully shutting down
+2024/06/04 00:41:51 [notice] 33#33: exiting
+2024/06/04 00:41:51 [notice] 34#34: gracefully shutting down
+2024/06/04 00:41:51 [notice] 34#34: exiting
+2024/06/04 00:41:51 [notice] 32#32: gracefully shutting down
+2024/06/04 00:41:51 [notice] 31#31: exiting
+2024/06/04 00:41:51 [notice] 33#33: exit
+2024/06/04 00:41:51 [notice] 34#34: exit
+2024/06/04 00:41:51 [notice] 32#32: exiting
+2024/06/04 00:41:51 [notice] 31#31: exit
+2024/06/04 00:41:51 [notice] 32#32: exit
+2024/06/04 00:41:51 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2024/06/04 00:41:51 [notice] 1#1: worker process 31 exited with code 0
+2024/06/04 00:41:51 [notice] 1#1: worker process 33 exited with code 0
+2024/06/04 00:41:51 [notice] 1#1: worker process 34 exited with code 0
+2024/06/04 00:41:51 [notice] 1#1: signal 29 (SIGIO) received
+2024/06/04 00:41:51 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/06/04 00:41:51 [notice] 1#1: worker process 32 exited with code 0
+2024/06/04 00:41:51 [notice] 1#1: exit
+2024/06/04 10:10:27 [notice] 1#1: using the "epoll" event method
+2024/06/04 10:10:27 [notice] 1#1: nginx/1.23.0
+2024/06/04 10:10:27 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2024/06/04 10:10:27 [notice] 1#1: OS: Linux 5.10.47-linuxkit
+2024/06/04 10:10:27 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/06/04 10:10:27 [notice] 1#1: start worker processes
+2024/06/04 10:10:27 [notice] 1#1: start worker process 32
+2024/06/04 10:10:27 [notice] 1#1: start worker process 33
+2024/06/04 10:10:27 [notice] 1#1: start worker process 34
+2024/06/04 10:10:27 [notice] 1#1: start worker process 35
+2024/06/05 00:00:29 [error] 34#34: *5 upstream prematurely closed connection while reading response header from upstream, client: 172.22.0.1, server: localhost, request: "GET /db_sample_register HTTP/1.1", upstream: "http://172.22.0.3:8000/db_sample_register", host: "localhost"
+2024/06/05 00:04:22 [error] 32#32: *9 upstream prematurely closed connection while reading response header from upstream, client: 172.22.0.1, server: localhost, request: "GET /db_sample_register HTTP/1.1", upstream: "http://172.22.0.3:8000/db_sample_register", host: "localhost"
+2024/06/05 00:09:15 [error] 32#32: *13 upstream prematurely closed connection while reading response header from upstream, client: 172.22.0.1, server: localhost, request: "GET /db_sample_register HTTP/1.1", upstream: "http://172.22.0.3:8000/db_sample_register", host: "localhost"
+2024/06/05 00:12:11 [error] 32#32: *16 upstream prematurely closed connection while reading response header from upstream, client: 172.22.0.1, server: localhost, request: "GET /db_sample_register HTTP/1.1", upstream: "http://172.22.0.3:8000/db_sample_register", host: "localhost"
+2024/06/05 00:12:17 [error] 32#32: *16 upstream prematurely closed connection while reading response header from upstream, client: 172.22.0.1, server: localhost, request: "GET /db_sample_input HTTP/1.1", upstream: "http://172.22.0.3:8000/db_sample_input", host: "localhost"
+2024/06/05 00:12:39 [error] 32#32: *16 upstream prematurely closed connection while reading response header from upstream, client: 172.22.0.1, server: localhost, request: "GET /db_sample_input HTTP/1.1", upstream: "http://172.22.0.3:8000/db_sample_input", host: "localhost"
+2024/06/05 00:13:00 [error] 32#32: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /db_sample_input HTTP/1.1", upstream: "http://172.22.0.3:8000/db_sample_input", host: "localhost"
+2024/06/05 00:13:01 [error] 32#32: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /db_sample_input HTTP/1.1", upstream: "http://172.22.0.3:8000/db_sample_input", host: "localhost"
+2024/06/05 00:13:17 [error] 32#32: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /db_sample_input HTTP/1.1", upstream: "http://172.22.0.3:8000/db_sample_input", host: "localhost"
+2024/06/05 00:13:18 [error] 32#32: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /db_sample_input HTTP/1.1", upstream: "http://172.22.0.3:8000/db_sample_input", host: "localhost"
+2024/06/05 00:20:14 [error] 32#32: *29 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /db_sample_data HTTP/1.1", upstream: "http://172.22.0.3:8000/db_sample_data", host: "localhost", referrer: "http://localhost/db_sample_input"
+2024/06/05 00:29:13 [error] 33#33: *83 upstream prematurely closed connection while reading response header from upstream, client: 172.22.0.1, server: localhost, request: "POST /db_sample_register HTTP/1.1", upstream: "http://172.22.0.3:8000/db_sample_register", host: "localhost", referrer: "http://localhost/db_sample_input"
+2024/06/05 00:34:31 [error] 32#32: *99 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /db_sample_index HTTP/1.1", upstream: "http://172.22.0.3:8000/db_sample_index", host: "localhost"
+2024/06/05 00:34:32 [error] 32#32: *99 upstream prematurely closed connection while reading response header from upstream, client: 172.22.0.1, server: localhost, request: "GET /db_sample_index HTTP/1.1", upstream: "http://172.22.0.3:8000/db_sample_index", host: "localhost"
+2024/06/05 00:34:32 [error] 32#32: *99 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.22.0.3:8000/favicon.ico", host: "localhost", referrer: "http://localhost/db_sample_index"
+2024/06/05 00:35:16 [error] 32#32: *99 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /db_sample_index HTTP/1.1", upstream: "http://172.22.0.3:8000/db_sample_index", host: "localhost"
+2024/06/05 00:35:16 [error] 32#32: *99 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.22.0.3:8000/favicon.ico", host: "localhost", referrer: "http://localhost/db_sample_index"
+2024/06/05 00:35:23 [error] 32#32: *99 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /db_sample_index HTTP/1.1", upstream: "http://172.22.0.3:8000/db_sample_index", host: "localhost"
+2024/06/05 00:35:23 [error] 32#32: *99 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.22.0.3:8000/favicon.ico", host: "localhost", referrer: "http://localhost/db_sample_index"
+2024/06/06 00:32:45 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/06/06 00:32:45 [notice] 32#32: gracefully shutting down
+2024/06/06 00:32:45 [notice] 32#32: exiting
+2024/06/06 00:32:45 [notice] 34#34: gracefully shutting down
+2024/06/06 00:32:45 [notice] 33#33: gracefully shutting down
+2024/06/06 00:32:45 [notice] 35#35: gracefully shutting down
+2024/06/06 00:32:45 [notice] 32#32: exit
+2024/06/06 00:32:45 [notice] 34#34: exiting
+2024/06/06 00:32:45 [notice] 33#33: exiting
+2024/06/06 00:32:45 [notice] 35#35: exiting
+2024/06/06 00:32:45 [notice] 35#35: exit
+2024/06/06 00:32:45 [notice] 34#34: exit
+2024/06/06 00:32:45 [notice] 33#33: exit
+2024/06/06 00:32:45 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/06/06 00:32:45 [notice] 1#1: worker process 32 exited with code 0
+2024/06/06 00:32:45 [notice] 1#1: signal 29 (SIGIO) received
+2024/06/06 00:32:45 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2024/06/06 00:32:45 [notice] 1#1: worker process 35 exited with code 0
+2024/06/06 00:32:45 [notice] 1#1: signal 29 (SIGIO) received
+2024/06/06 00:32:45 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2024/06/06 00:32:45 [notice] 1#1: worker process 34 exited with code 0
+2024/06/06 00:32:45 [notice] 1#1: signal 29 (SIGIO) received
+2024/06/06 00:32:45 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2024/06/06 00:32:45 [notice] 1#1: worker process 33 exited with code 0
+2024/06/06 00:32:45 [notice] 1#1: exit
