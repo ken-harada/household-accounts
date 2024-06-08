@@ -10,7 +10,7 @@ services:
     volumes:
       - ./db/initdb:/docker-entrypoint-initdb.d
     environment:
-      - MYSQL_USER=household-accounts
+      - MYSQL_USER=root
       - MYSQL_PASSWORD=password
       - MYSQL_DATABASE=household-accounts
       - MYSQL_ROOT_PASSWORD_FILE=/run/secrets/db-password

@@ -25,4 +25,4 @@ go.work
 
 backend/tmp/
 
-nginx/log/
+backend/nginx/log/
